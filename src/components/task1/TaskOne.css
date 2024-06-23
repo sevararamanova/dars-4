@@ -1,0 +1,53 @@
+
+.task-one-container {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+    
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+   th,  td {
+    border: 1px solid darkcyan;
+    padding: 8px;
+    
+  }
+   
+  
+   th {
+    background-color:darkcyan;
+    font-size: 23px;
+    color:#f9f9f9;
+    text-align: left;
+    text-align: center;
+    padding: 15px 30px;
+  }
+ tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  tr:hover {
+    background-color: #ddd;
+  }
+
+  h1 {
+    font-size: 50px;
+    font-family: sans-serif;
+    color:rgb(11, 74, 74);
+    text-align: center;
+  }
+  .container {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+
+  }
+ td:first-child {
+   background-color: darkcyan;
+   color:#f9f9f9;
+  }
+
